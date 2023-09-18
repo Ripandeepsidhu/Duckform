@@ -1,0 +1,135 @@
+body{
+    background: #9DBEBB;
+    width: 1440px;
+    height: 900px;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    
+}
+    
+.rectangle1{
+     width: 954px;
+    height: 594px;
+    background: #BE0909;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    position: relative;
+    margin-left: 243px;
+    margin-right:243px ;
+    margin-bottom:153px ;
+    margin-top:153px ;
+}
+
+.rectangle2{
+    width: 345px;
+    height: 594px;
+    background: #FFB039;
+    display: flex;
+    position: absolute;
+    bottom:0px;
+    top: 0px;
+    right: 0px;
+}
+    
+.duck-image{
+    width: 663px;
+    height: 603px;
+    margin-left:342px ;
+    margin-right: 192px;
+    margin-top: 52px;
+    margin-bottom: 92px;
+    position: absolute;
+    top: 150px;
+    bottom: 0px;
+    right: 20px;
+}   
+.full-name{
+    color: #FEFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+} 
+.input-name{
+    width: 400px;
+    height: 1px;
+    background: #9DBEBB;
+    margin-top: 51px;
+}
+.email{
+    color: #FCFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase; 
+    margin-top: 22px; 
+    margin-bottom: 21px;
+}
+.input-email{
+    border: none;  
+    width: 150px;
+    color: #FDFFFF;
+
+}
+.input-email .placeholder{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.4px;
+}
+
+.rectangle1 button{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    width: 202px;
+    height: 48px;
+    flex-shrink: 0;border-radius: 40px;
+    background: #468189;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.50);
+    border: none;
+}
+.message-rearding{
+    color: #FEFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.input-message-regarding{
+    width: 160px;
+    height: 1px;
+    background: #9DBEBB;
+}
+.message{
+    color: rgba(254, 255, 255, 0.98);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.input-message{
+    width: 324px;
+    color: #FEFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FEFFFF;
+    letter-spacing: 5.4px;
+}
