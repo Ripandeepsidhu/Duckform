@@ -58,6 +58,7 @@ section{
     height: 1px;
     background: #9DBEBB;
     margin-top: 51px;
+   
 }
 .email{
     color: #FCFFFF;
@@ -68,20 +69,31 @@ section{
     letter-spacing: 1.8px;
     text-transform: uppercase; 
     margin-top: 22px; 
-    margin-bottom: 21px;
+   
 }
 .input-email{
     border: none;  
     width: 150px;
     color: #FDFFFF;
-
-}
-.input-email .placeholder{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 5.4px;
+    border: none;
+    margin-bottom: 9px;
+    margin-top: 21px;
+  
+}
+::placeholder{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.4px;
+    color: #FDFFFF;
+    background-color:#BE0909 ;
+    
 }
 
 .rectangle1 button{
@@ -100,7 +112,7 @@ section{
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.50);
     border: none;
 }
-.message-rearding{
+.message-regarding{
     color: #FEFFFF;
     font-size: 18px;
     font-style: normal;
@@ -113,6 +125,8 @@ section{
     width: 160px;
     height: 1px;
     background: #9DBEBB;
+    margin-top: 51px;
+    margin-bottom: 21px;
 }
 .message{
     color: rgba(254, 255, 255, 0.98);
@@ -132,4 +146,6 @@ section{
     line-height: normal;
     color: #FEFFFF;
     letter-spacing: 5.4px;
+    border: none;
+    margin-top: 21px;
 }
