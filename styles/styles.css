@@ -55,9 +55,11 @@ section{
 } 
 .input-name{
     width: 400px;
-    height: 1px;
-    background: #9DBEBB;
+    background: transparent;
     margin-top: 51px;
+    border: none;
+    border-bottom: solid 1px  #9DBEBB;
+    margin-bottom: 22px;
    
 }
 .email{
@@ -66,23 +68,17 @@ section{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 1.8px;
-    text-transform: uppercase; 
-    margin-top: 22px; 
-   
+    letter-spacing: 1.8px; 
 }
 .input-email{
-    border: none;  
-    width: 150px;
-    color: #FDFFFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 5.4px;
+    padding-bottom:9px;
+    background: transparent;
     border: none;
-    margin-bottom: 9px;
+    border-bottom: solid 1px #9DBEBB;
+    width: 160px;
+    margin-bottom: 31px;
     margin-top: 21px;
+   
   
 }
 ::placeholder{
@@ -123,8 +119,9 @@ section{
 }
 .input-message-regarding{
     width: 160px;
-    height: 1px;
-    background: #9DBEBB;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px #9DBEBB;;
     margin-top: 51px;
     margin-bottom: 21px;
 }
@@ -139,13 +136,10 @@ section{
 }
 .input-message{
     width: 324px;
-    color: #FEFFFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: #FEFFFF;
-    letter-spacing: 5.4px;
+    padding-bottom: 9px;
+    background: transparent;
     border: none;
+    border-bottom: solid 1px #9DBEBB;
     margin-top: 21px;
+    margin-bottom: 56px;
 }
